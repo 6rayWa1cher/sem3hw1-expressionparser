@@ -18,7 +18,7 @@ int main() {
 			std::cout << "Garbage >:(" << std::endl;
 		}
 	} catch (std::ios_base::failure& e) {
-		int a = 2;
+		std::cout << "Something went wrong" << std::endl;
 	}
 	return 0;
 }
